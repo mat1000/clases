@@ -1,0 +1,7 @@
+body{background-color: gray;}
+h1, h2{color: brown;font-family: 'Dela Gothic One', cursive;text-align: center;}
+#mail{border-radius: 5px ;border-color: brown;}
+.icon{background-color: gray;}
+::placeholder{color: brown;}
+span{color: brown;align-items: flex-end;}
+div span{color: blue;}
