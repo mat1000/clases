@@ -1,0 +1,43 @@
+div{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+div:hover {
+    background-color: brown;
+    border-radius: 10px;
+}
+.red:focus{
+    background-color: blue; color: brown;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+.blue:focus{
+    background-color: brown; color: blue;
+    border-color: brown;
+    border-radius: 10px;
+}
+
+input{
+    border: 1px solid black;
+}
+
+input:out-of-range{
+    background-color: red;
+}
+
+input:in-range{
+    background-color: blue;
+}
+
+.resaltadorojo:after{
+    color: red; content: "<-ROJO";
+}
+
+
+.resaltadozul{
+    color: blue; content: "<-AZUL";
+}

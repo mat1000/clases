@@ -5,3 +5,4 @@ h1, h2{color: brown;font-family: 'Dela Gothic One', cursive;text-align: center;}
 ::placeholder{color: brown;}
 span{color: brown;align-items: flex-end;}
 div span{color: blue;}
+.fa-solid{color: brown;font-size: 15px;}
