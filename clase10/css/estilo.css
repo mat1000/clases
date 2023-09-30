@@ -38,6 +38,6 @@ input:in-range{
 }
 
 
-.resaltadozul{
+.resaltadozul:after{
     color: blue; content: "<-AZUL";
 }
