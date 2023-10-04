@@ -1,0 +1,49 @@
+
+.bg-body-tertiary{background-color: antiquewhite !important; border-radius: 5px !important;}
+.btn-outline-light{color: black !important;}
+
+/* Estilos para los contenedores */
+.contenedor-principal {
+    display: flex !important;
+    flex-wrap: wrap !important; /* Permite que los contenedores secundarios se envuelvan cuando no quepan en una sola fila */
+    justify-content:center !important; /* Distribuye los contenedores secundarios horizontalmente con espacio entre ellos */
+    align-items:center !important;
+    margin: 10px  !important; /* Espaciado inferior entre los contenedores */
+}
+
+/* Estilos para las tarjetas dentro de los contenedores */
+.contenedor .card {
+    margin: 10px  !important;
+    flex: 1  !important; /* Hace que las tarjetas ocupen un espacio igual dentro del contenedor */
+    width: 300px !important;
+    margin: 10px !important;
+}
+
+.card img {
+    max-width: 100%;
+    height:300px;
+}
+/*
+.contenedor {
+    display: flex !important;
+    flex-direction:row !important;
+    justify-content: space-between !important;
+    align-items:flex-end !important;
+    padding: 20px !important;
+}
+
+/* Estilos para las tarjetas */
+/*
+.card {
+    width: 300px !important;
+    margin: 10px !important;
+    text-align: center !important;
+    border: 1px solid #ccc !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+}
+
+.card img {
+    max-width: 100% !important;
+    height: auto !important;
+}

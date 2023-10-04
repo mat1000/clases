@@ -1,0 +1,13 @@
+/* Estilos para los contenedores principales */
+.contenedor-principal {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los contenedores secundarios se envuelvan cuando no quepan en una sola fila */
+    justify-content: space-between; /* Distribuye los contenedores secundarios horizontalmente con espacio entre ellos */
+    align-items: center; /* Alinea verticalmente los contenedores secundarios al centro */
+}
+
+/* Estilos para los contenedores secundarios */
+.contenedor {
+    flex: 1; /* Hace que los contenedores secundarios ocupen un espacio igual dentro del contenedor principal */
+    max-width: 18rem;
+}
