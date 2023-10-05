@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script>
+        console.log("Hola Mundo")
+        console.log("12")
+
+        var NumeroEntero
+        console.log("NumeroEntero")//No sirve por que es un valor literal asi no se representa las variables
+        console.log(NumeroEntero) // Asi busca el resultado de la variable que va a dar como undefined 
+
+        var NumEntero=100 //Ahora la variable si tiene un valor
+        console.log("La variable Entero es : " + NumEntero) //Al la consola buscar la variable, tira el valor dado anteriormente
+
+        // sirve para tambien dar respuesta el: alert("Hola Mundo")
+
+        var NumFloat=100.7
+        console.log("La variable Entero es : " + NumFloat)
+
+        var VariableBool=true
+        console.log("La variable Entero es : " + VariableBool)
+
+        var VariableNull= null
+        console.log("La variable Entero es : " + VariableNull)
+
+        var VariableDate= new Date()
+        VariableDate.setFullYear(2023,4,19)
+        console.log("La variable Date es : " + VariableDate)
+
+        var Dato=15
+        var dato=17
+        console.log(Dato)
+
+        
+        var FechaDeAlta=100
+
+        var Dato1=15
+        var Dato2=15
+        var Suma=Dato1+Dato2 //La suma de ambas variables 
+        console.log("La suma de Dato1 + Dato2 es igual a " + Suma)
+
+        const iva=21
+        console.log("El valor del iba es " + iva)
+
+
+        var x=12345
+        console.log(typeof(x))
+        x="Hola Mundo"
+        console.log(typeof(x))
+        x={clave:"Valor"}
+        console.log(typeof(x))
+    </script>
+</body>
+</html>
