@@ -64,8 +64,26 @@
             case 6: 
                     console.log("Sabado")
                     break
+        }       
+
+        var i=300
+
+        while(i<100)
+        {
+                console.log("El valor de i es: " + i)
+                i=i+1
         }
 
+        do{
+                console.log("Entro al Do While")
+                i++
+        }while(i<200)
+
+
+        x="Prueba"
+        var resultado=(x<1000) ? x:1000 //Operador ternario es una forma reducida de hacer un if y asignarlo a una variable 
+        // El operador dice que si x es menor a 1000, me tiene que devolver el valor de x(1000), y como x vale "prueba", entonces me devuelve 1000 
+        console.log(resultado)
 
     </script>
 </body>
