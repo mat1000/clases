@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        autos=new Array("Fiat","Renault","Ford","Chevrolet","Ferrari","BMW","VW")
+
+        numeros=new Array(12,100,7,45,100,4,100)
+
+        todo=new Array("Texto",12,true,100.9)
+
+        console.log("El valor del Array es : " + autos)
+        console.log("El valor del Array es : " + autos[2])
+
+        console.log("--------------------")
+0
+        autos[2]="Mercedes"
+        console.log("El valor del Array es : " + autos[2])
+
+
+        for(let x=0; x<autos.length;x++)
+        {
+            console.log("El valor de array autos es : " + autos[x] + " En la pos.["+x+"]") //Ordenar las posiciones de los Array
+        }
+        console.log("--------------------")
+
+        var cont=0
+        for(let x=0;x<numeros.length ;x++)
+        {
+            if(numeros[x]==100)
+            {
+                console.log("El valor es : " + numeros[x] + " En la pos.["+x+"]") //Decir en que posiciones esta el valor 100 en el Array numeros
+                cont++ // como contar la cantidad de veces que aparece 
+            }
+        }
+
+        console.log("Cantidad de 100 son : " + cont)//Contador de veces que aparece el 100 y siempre va afuera del for
+        console.log("--------------------")
+
+        for(let x=0;x<numeros.length;x++)
+        {
+            if(numeros[x]%2==0)
+            {
+                console.log("Numero: " + numeros[x])
+
+            }
+        }
+        console.log("FOR IN")
+        for(let x in numeros)//Nombra todos los numeros del Array numeros
+        {
+            console.log("Dato" +numeros[x])
+        }
+    </script>
+</body>
+</html>
