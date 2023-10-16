@@ -25,6 +25,87 @@
             let suma=x+y
             console.log("La suma es : " + suma)
         }
+        //////////////////////////////////////
+
+        var dato3=90
+        var dato4=90
+        var dato5=0
+
+        dato5=Funcion3(dato3,dato4)
+
+        console.log("El resultado de funcion 5 es : " + dato5)
+
+        function Funcion3(j,p)
+    
+        {
+            return j+p
+        }
+
+        //////////////////////////////////
+
+        var nombre="Mateo"
+
+        mensaje()
+        function mensaje()
+        {
+            nombre="Pedro"
+        }
+
+        console.log(nombre)
+        //////////////////////////////////
+
+        mensajeL()
+    
+        function mensajeL()
+        {
+            nombreL="Mateo" //Variable dentro del function
+            console.log("Nombre dentro de la funcion : " + nombreL)  
+        }
+
+        //console.log(nombreL) 
+
+        //////////////////////////////////
+
+
+        mensajeCompleto("Mateo")
+        function mensajeCompleto(nombre,mensaje="hola mundo" )//mensaje esta definido por si yo no le mando el segundo parametro de mensajeCompleto, le agregue un texto predeterminado por mi )
+        {
+            console.log(nombre +"---" + mensaje)
+        }
+
+        //////////////////////////////////
+
+        let edad=prompt("Ingrese edad", 18)
+
+        verificar(edad) 
+        function verificar(edad)
+        {
+            if(edad<18)
+            {
+                alert("Ingreso no permitido")
+            }
+            else
+            {
+                alert("Ingreso autorizado")
+            }
+        }
+        //////////////////////////////////
+
+        var nombre="Mateo"
+        var nombre2="julieta"
+        console.log(nombre.toUpperCase()) //Pasa a mayuscula
+        console.log(nombre2.toLowerCase()) //Pasa a minuscula
+
+        console.log(nombre2.length)
+        console.log(nombre2.slice(0,4))
+
+        var empresa="Nombre : Arcor"
+        console.log(empresa.replace("Arcor", "Apple"))
+
+
+
+
+
     </script>
 </body>
 </html>
