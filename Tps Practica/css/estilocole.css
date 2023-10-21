@@ -7,3 +7,22 @@
     padding: 20px;
     text-align: center;
 }
+
+footer {
+    display: flex; /* Utilizamos display: flex para crear un contenedor flexible */
+    justify-content: space-between; /* Esto separa los elementos al máximo en el contenedor */
+    align-items: center; /* Centra verticalmente los elementos en el contenedor */
+    size: 20px;
+  }
+
+.logo{
+    justify-content:end; /* Esto separa los elementos al máximo en el contenedor */
+    align-items:center; /* Centra verticalmente los elementos en el contenedor */
+    size: 10px;
+  }
+  
+  /* Opcional: Puedes añadir margen al icono para separarlo del texto */
+  .fa-brands {
+    size-adjust: 10px;
+    margin-left: 5px; /* Ajusta el valor de margin según tus preferencias */
+  }
