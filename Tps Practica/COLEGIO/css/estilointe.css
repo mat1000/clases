@@ -1,0 +1,42 @@
+*{margin: 0px; padding: 10px; font-family: 'Dela Gothic One', cursive;}
+header {
+    background-color: #f8f9fa; /* Cambia el color de fondo según tus preferencias */
+    padding: 10px 0;    border-radius: 15px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .logo-container img {
+    width: 100px;    /* Ajusta el ancho de la imagen del logo según tus necesidades */
+    /* Puedes agregar más estilos según tus preferencias */
+  }
+  
+.nav-link{
+    color: rgb(0, 0, 0); border-radius: 10px; border-color: aliceblue; text-decoration: none;
+    margin-right: 50px; 
+}
+.foot{background-color:antiquewhite;
+    color: #000000; 
+    padding: 10px; 
+    text-align: center; 
+    position:unset;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+.btn-primary {
+    background-color: #870000; /* Cambia el color de fondo según tus preferencias */
+    color: #fff; /* Cambia el color del texto según tus preferencias */
+    padding: 10px 20px; /* Ajusta el relleno según tus necesidades */
+    border-radius: 5px; /* Agrega esquinas redondeadas según tus necesidades */
+    border-color:none;
+    align-items: center;
+  }
+  
+
+  
